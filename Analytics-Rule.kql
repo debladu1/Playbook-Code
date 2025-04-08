@@ -1,0 +1,10 @@
+DeviceProcessEvents
+| where TimeGenerated > ago(1h)
+| where InitiatingProcessFileName == "powershell.exe"
+| where ProcessCommandLine contains "Invoke-WebRequest" 
+    or ProcessCommandLine contains "System.Net.WebClient"
+    or ProcessCommandLine contains "iwr"
+    or ProcessCommandLine contains "irm"
+| project DeviceId, SHA256, ProcessCommandLine, AccountUpn
+| extend ExtractedURL = extract(@"(https?://[^\s']+)", 0, ProcessCommandLine)
+| where isnotempty(ExtractedURL)
