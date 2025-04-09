@@ -1,0 +1,42 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "value": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "TimeGenerated": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "Location": {
+                            "type": "string"
+                        },
+                        "AppDisplayName": {
+                            "type": "string"
+                        },
+                        "IPAddress": {
+                            "type": "string"
+                        },
+                        "UserId": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "TimeGenerated",
+                        "Location",
+                        "AppDisplayName",
+                        "IPAddress",
+                        "UserId"
+                    ]
+                }
+            }
+        },
+        "required": [
+            "value"
+        ]
+    }
+}
