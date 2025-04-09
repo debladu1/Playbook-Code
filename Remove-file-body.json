@@ -1,0 +1,17 @@
+{
+  "Commands": [
+    {
+      "type": "RunScript",
+      "params": [
+        {
+          "key": "ScriptName",
+          "value": "RemoveFile.ps1"
+        },
+        {
+          "key": "Args",
+          "value": "@{variables('Outfile')}"
+        }
+      ]
+    }
+  ]
+}
