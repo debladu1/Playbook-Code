@@ -3,12 +3,30 @@
     "items": {
         "type": "object",
         "properties": {
+            "azureID": {
+                "type": "string"
+            },
             "hostName": {
+                "type": "string"
+            },
+            "friendlyName": {
+                "type": "string"
+            },
+            "Type": {
                 "type": "string"
             }
         },
-        "required": [
-            "hostName"
+        "oneOf": [
+            {
+                "required": [
+                    "azureID"
+                ]
+            },
+            {
+                "required": [
+                    "hostName"
+                ]
+            }
         ]
     }
 }
