@@ -1,5 +1,5 @@
 SigninLogs
 | where TimeGenerated > ago(5d)
-| where UserPrincipalName == "@{outputs('Compose_Email')}" 
+| where UserPrincipalName == "@{outputs('Compose_Email')}" // example user@youremail.com
 | project TimeGenerated, Location, IPAddress, AppDisplayName, UserId
 | sort by TimeGenerated desc
