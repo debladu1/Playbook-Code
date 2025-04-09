@@ -1,0 +1,5 @@
+SigninLogs
+| where TimeGenerated > ago(5d)
+| where UserPrincipalName == "@{outputs('Compose_Email')}" 
+| project TimeGenerated, Location, IPAddress, AppDisplayName, UserId
+| sort by TimeGenerated desc
