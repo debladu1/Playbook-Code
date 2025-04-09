@@ -1,0 +1,18 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "accountName": {
+                "type": "string"
+            },
+            "upnSuffix": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "accountName",
+            "upnSuffix"
+        ]
+    }
+}
