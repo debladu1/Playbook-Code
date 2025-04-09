@@ -1,0 +1,1 @@
+concat('Time: ', formatDateTime(item()['TimeGenerated'], 'yyyy-MM-dd HH:mm:ss'), ' | Location: ', item()['Location'], ' | App: ', item()['AppDisplayName'], ' | IP: ', item()['IPAddress'], '\n')
