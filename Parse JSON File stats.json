@@ -1,0 +1,55 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "sha1": {
+                "type": "string"
+            },
+            "orgPrevalence": {
+                "type": "string"
+            },
+            "organizationPrevalence": {
+                "type": "integer"
+            },
+            "orgFirstSeen": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "format": "date-time"
+            },
+            "orgLastSeen": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "format": "date-time"
+            },
+            "globalPrevalence": {
+                "type": "string"
+            },
+            "globallyPrevalence": {
+                "type": "integer"
+            },
+            "globalFirstObserved": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "globalLastObserved": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "topFileNames": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            }
+        },
+        "required": [
+            "globalPrevalence",
+            "orgPrevalence"
+        ]
+    }
+}
