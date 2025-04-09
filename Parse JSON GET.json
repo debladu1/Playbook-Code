@@ -1,0 +1,52 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties": {
+                "attributes": {
+                    "type": "object",
+                    "properties": {
+                        "status": {
+                            "type": "string"
+                        },
+                        "stats": {
+                            "type": "object",
+                            "properties": {
+                                "malicious": {
+                                    "type": "integer"
+                                },
+                                "suspicious": {
+                                    "type": "integer"
+                                },
+                                "undetected": {
+                                    "type": "integer"
+                                },
+                                "harmless": {
+                                    "type": "integer"
+                                },
+                                "timeout": {
+                                    "type": "integer"
+                                }
+                            }
+                        },
+                        "results": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "object",
+                                "properties": {
+                                    "category": {
+                                        "type": "string"
+                                    },
+                                    "result": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
