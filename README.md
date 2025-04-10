@@ -4,22 +4,22 @@ This repository contains all the code for the PowerShell Download Automation Pla
 ## Step-by-step Logic App Overview
 
 ### 🟢 Step 1: Trigger - When a Sentinel Incident is Created
-![Step 1](images/1.png)
+![Step 1](images/1.PNG)
 
 ### 📦 Step 2: Parse Incident JSON
-![Step 2](images/2.png)
+![Step 2](images/2.PNG)
 
 ### 🧩 Step 3: Extract Entities (DeviceId, AccountUPN)
-![Step 3](images/3.png)
+![Step 3](images/3.PNG)
 
 ### 🧠 Step 4: Initialize Variables
-![Step 4](images/4.png)
+![Step 4](images/4.PNG)
 
 ### 🔄 Step 5: Conditions or Loops (if any)
-![Step 5](images/5.png)
+![Step 5](images/5.PNG)
 
 ### 🔗 Step 6: External API Calls / Enrichment
-![Step 6](images/6.png)
+![Step 6](images/6.PNG)
 
 ### ✉️ Step 7: Notifications or Final Actions
-![Step 7](images/7.png)
+![Step 7](images/7.PNG)
