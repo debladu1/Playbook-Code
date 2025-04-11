@@ -5,35 +5,35 @@ This repository contains all the code for the PowerShell Download Automation Pla
 
 ### Part 1:
 <p align="center">
-  <img src="images/part1.PNG" />
+  <img src="images/Part1.PNG" />
 </p>
 
 ### Part 2:
 <p align="center">
-  <img src="images/part2.PNG" />
+  <img src="images/Part2.PNG" />
 </p>
 
 ### Part 3:
 <p align="center">
-  <img src="images/part3.PNG" />
+  <img src="images/Part3.PNG" />
 </p>
 
 ### Part 4:
 <p align="center">
-  <img src="images/part4.PNG" />
+  <img src="images/Part4.PNG" />
 </p>
 
 ### Part 5:
 <p align="center">
-  <img src="images/part5.PNG" />
+  <img src="images/Part5.PNG" />
 </p>
 
 ### Part 6:
 <p align="center">
-  <img src="images/part6.PNG" />
+  <img src="images/Part6.PNG" />
 </p>
 
 ### Part 7:
 <p align="center">
-  <img src="images/part7.PNG" />
+  <img src="images/Part7.PNG" />
 </p>
