@@ -1,1 +1,1 @@
-concat(item()['accountName'], '@', item()['upnSuffix'])
+concat(items('For_each_Email')['accountName'], '@', item()['upnSuffix'])
