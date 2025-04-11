@@ -3,37 +3,37 @@ This repository contains all the code for the PowerShell Download Automation Pla
 
 ## Top to bottom Logic App Overview
 
-### Part 1
+### Part 1:
 <p align="center">
   <img src="images/1.PNG" />
 </p>
 
-### Part 2
+### Part 2:
 <p align="center">
   <img src="images/2.PNG" />
 </p>
 
-### Part 3
+### Part 3:
 <p align="center">
   <img src="images/3.PNG" />
 </p>
 
-### Part 4
+### Part 4:
 <p align="center">
   <img src="images/4.PNG" />
 </p>
 
-### Part 5
+### Part 5:
 <p align="center">
   <img src="images/5.PNG" />
 </p>
 
-### Part 6
+### Part 6:
 <p align="center">
   <img src="images/6.PNG" />
 </p>
 
-### Part 7
+### Part 7:
 <p align="center">
   <img src="images/7.PNG" />
 </p>
