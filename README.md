@@ -37,3 +37,8 @@ This repository contains all the code for the PowerShell Download Automation Pla
 <p align="center">
   <img src="images/img7.PNG" />
 </p>
+
+### Part 8:
+<p align="center">
+  <img src="images/img8.PNG" />
+</p>
